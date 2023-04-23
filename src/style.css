@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Sedgwick+Ave+Display&display=swap');
+
+body {
+    background: url('./steak3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* min-height: 804.75px; */
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    height: 100%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    border: 2px solid blac;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.header {
+    border: 2px solid blac;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.l-header {
+    border: 2px solid re;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.l-header>div {
+    border: 2px solid re;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    flex: 0 1 auto;
+    border: 2px solid blac;
+    font-size: 2em;
+    font-weight: 1000;
+}
+
+.r-header {
+    border: 2px solid re;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.r-header>div {
+    border: 2px solid re;
+    color: white;
+    display: flex;
+}
+
+.r-header>div p {
+    flex: 0 1 auto;
+    border: 2px solid blac;
+    font-size: 1.5em;
+    font-weight: 1000;
+    padding-top: 10px;
+}
+
+#homeBtn {
+    justify-content: end;
+}
+
+#menuBtn {
+    justify-content: center;
+}
+
+.main-page {
+    border: 2px solid re;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    border: 2px solid re;
+    /* height: 400px; */
+    margin: 240px 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#top {
+    border: 2px solid blac;
+    color: white;
+    font-size: 4em;
+    font-weight: 1000;
+    text-align: center;
+}
+
+#bottom {
+    border: 2px solid blac;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 1000;
+}
+
+.menu-box {
+    border: 2px solid blac;
+    height: 1600px;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 220px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px 400px 400px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    gap: 40px;
+}
+
+.dish {
+    border: 2px solid blac;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 2em;
+    color: white;
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+}
+
+.img-box {
+    border: 2px solid re;
+    background-size: 100%;
+}
+
+.text-box {
+    border: 2px solid blue;
+    margin: 0;
+}
+
+#img-1 {
+    background-position-y: -80px;
+    background-image: url(./New-York-Sirloin.jpg);
+}
+
+#img-2 {
+    background-position-y: -240px;
+    background-image: url(./Filet-Mignon.jpg);
+}
+
+#img-3 {
+    background-image: url(./Rib-Steak.jpg);
+}
+
+#img-4 {
+    background-position-y: -70px;
+    background-image: url(./Chopped-Steak.jpg);
+}
+
+#img-5 {
+    background-image: url(./Caesar.jpg);
+}
+
+#img-6 {
+    background-image: url(./Green-Salad.jpg);
+}
+
+#img-7 {
+    background-position-y: -20px;
+    background-image: url(./French-Onion-Soup.jpg);
+}
+
+#img-8 {
+    background-image: url(./Jumbo-Maine-Lobster.jpg);
+}
