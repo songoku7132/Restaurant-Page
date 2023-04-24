@@ -17,26 +17,22 @@ body {
 #content {
     display: grid;
     grid-template-rows: 100px 1fr;
-    border: 2px solid blac;
     height: 100vh;
     /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
 .header {
-    border: 2px solid blac;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
 .l-header {
-    border: 2px solid re;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
 .l-header>div {
-    border: 2px solid re;
     color: white;
     display: flex;
     justify-content: center;
@@ -44,26 +40,22 @@ body {
 
 #title {
     flex: 0 1 auto;
-    border: 2px solid blac;
     font-size: 2em;
     font-weight: 1000;
 }
 
 .r-header {
-    border: 2px solid re;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
 }
 
 .r-header>div {
-    border: 2px solid re;
     color: white;
     display: flex;
 }
 
 .r-header>div p {
     flex: 0 1 auto;
-    border: 2px solid blac;
     font-size: 1.5em;
     font-weight: 1000;
     padding-top: 10px;
@@ -78,20 +70,17 @@ body {
 }
 
 .main-page {
-    border: 2px solid re;
     display: flex;
     justify-content: center;
 }
 
 .description {
-    border: 2px solid re;
     /* height: 400px; */
     margin: 240px 500px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
 #top {
-    border: 2px solid blac;
     color: white;
     font-size: 4em;
     font-weight: 1000;
@@ -99,15 +88,15 @@ body {
 }
 
 #bottom {
-    border: 2px solid blac;
     color: white;
     text-align: center;
     font-size: 1.5em;
     font-weight: 1000;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .menu-box {
-    border: 2px solid blac;
     height: 1600px;
     width: 50%;
     margin-top: 100px;
@@ -120,7 +109,6 @@ body {
 }
 
 .dish {
-    border: 2px solid blac;
     background-color: rgba(0, 0, 0, 0.3);
     font-size: 2em;
     color: white;
@@ -129,7 +117,6 @@ body {
 }
 
 .img-box {
-    border: 2px solid re;
     background-size: 100%;
 }
 

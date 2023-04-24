@@ -15,12 +15,12 @@ function loadContact(){
     mainPage.appendChild(mainDesc);
 
     const topDesc = document.createElement('p');
-    topDesc.textContent = 'Contact!';
+    topDesc.textContent = '+375 555 55 55';
     topDesc.id = 'top';
     mainDesc.appendChild(topDesc);
 
     const bottomDesc = document.createElement('p');
-    bottomDesc.textContent = 'Contact!';
+    bottomDesc.textContent = '41 E 20th St, New York, NY 10003, United States';
     bottomDesc.id = 'bottom';
     mainDesc.appendChild(bottomDesc);
 }

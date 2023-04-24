@@ -27,7 +27,6 @@ function loadMenu(){
         const text = document.createElement('p');
         text.classList.add('text');
         text.id = `text-${i}`
-        // text.textContent = 'Filet Mignon 10oz / 14oz'
         box.appendChild(text);
     }
     const text1 = document.getElementById('text-1');

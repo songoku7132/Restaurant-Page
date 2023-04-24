@@ -10,20 +10,19 @@ function loadHome(){
     mainPage.classList.add('main-page');
     Container.appendChild(mainPage);
 
-    const menuBox = document.createElement('div');
-    menuBox.classList.add('menu-box');
-    mainPage.appendChild(menuBox);
+    const mainDesc = document.createElement('div');
+    mainDesc.classList.add('description');
+    mainPage.appendChild(mainDesc);
 
-    for(let i=1;i<=8;i++){
-        const box = document.createElement('div');
-        box.textContent = 'Some dish!';
-        box.classList.add('dish')
-        // topDesc.id = 'top';
-        menuBox.appendChild(box);
-    }
-    // const bottomDesc = document.createElement('p');
-    // bottomDesc.textContent = 'Home!';
-    // bottomDesc.id = 'bottom';
-    // mainDesc.appendChild(bottomDesc);
+    const topDesc = document.createElement('p');
+    topDesc.textContent = 'INSPIRED FRANCH CUISINE';
+
+    topDesc.id = 'top';
+    mainDesc.appendChild(topDesc);
+
+    const bottomDesc = document.createElement('p');
+    bottomDesc.textContent = 'Voted New York\'s Best Franch Restaurant';
+    bottomDesc.id = 'bottom';
+    mainDesc.appendChild(bottomDesc);
 }
 export default loadHome;
